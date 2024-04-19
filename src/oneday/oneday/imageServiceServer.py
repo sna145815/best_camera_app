@@ -97,10 +97,13 @@ class ImageServiceServer(Node):
         if request:
             if request.name == 'recording_basic':
                 self.recording_type = 'basic'
+                self.filename = 'basic.avi'
             elif request.name == 'recording_gray':
                 self.recording_type = 'gray'
+                self.filename = 'gray.avi'
             elif request.name == 'recording_edge':
                 self.recording_type = 'edge'
+                self.filename = 'edge.avi'
             elif request.name == 'recording_stop':
                 self.recording = False
                 self.recording_type = None
@@ -110,7 +113,7 @@ class ImageServiceServer(Node):
                 self.get_logger().warn("Invalid recording control command.")
             if self.recording_type:
                 self.recording = True
-                self.recording_out = cv2.VideoWriter('recording.avi', self.recording_fourcc, 20, (self.frame.shape[1], self.frame.shape[0]))
+                self.recording_out = cv2.VideoWriter(self.filename, self.recording_fourcc, 20, (self.frame.shape[1], self.frame.shape[0]))
                 self.get_logger().info(f"Recording started for {self.recording_type}.")
         return response
 
