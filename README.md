@@ -15,13 +15,20 @@
       위 3개의 토픽을 구독하고 클라이언트의 call이 있을때마다 request.name의 내용에 따라 분기 처리 하여
       요청에 맞게 각 토픽들이 발행하는 프레임을 스냅샷 혹은 녹화 
     ## Client Call 
--     ros2 service call /take_stillshot oneday_msgs/srv/Snapshot "{name: 'basic'}" : /camera 토픽에서 발행하는 프레임 캡쳐
--     ros2 service call /take_stillshot oneday_msgs/srv/Snapshot "{name: 'gray'}" : /img_gray 토픽에서 발행하는 프레임 캡쳐
--     ros2 service call /take_stillshot oneday_msgs/srv/Snapshot "{name: 'edge'}" : /img_edge 토픽에서 발행하는 프레임 캡쳐
--     ros2 service call /recording_control oneday_msgs/srv/Recoding "{name: 'recording_basic'}" : /camera 토픽에서 발행하는 프레임 녹화 시작
--     ros2 service call /recording_control oneday_msgs/srv/Recoding "{name: 'recording_gray'}" : /img_gray 토픽에서 발행하는 프레임 녹화 시작
--     ros2 service call /recording_control oneday_msgs/srv/Recoding "{name: 'recording_edge'}" : /img_edge 토픽에서 발행하는 프레임 녹화 시작
--     ros2 service call /recording_control oneday_msgs/srv/Recoding "{name: 'recording_stop'}" : 녹화 중지
+   ros2 service call /take_stillshot oneday_msgs/srv/Snapshot "{name: 'basic'}" 
+-  /camera 토픽에서 발행하는 프레임 캡쳐
+   ros2 service call /take_stillshot oneday_msgs/srv/Snapshot "{name: 'gray'}"
+-  /img_gray 토픽에서 발행하는 프레임 캡쳐
+   ros2 service call /take_stillshot oneday_msgs/srv/Snapshot "{name: 'edge'}"
+-  /img_edge 토픽에서 발행하는 프레임 캡쳐
+      ros2 service call /recording_control oneday_msgs/srv/Recoding "{name: 'recording_basic'}"
+-  /camera 토픽에서 발행하는 프레임 녹화 시작
+  ros2 service call /recording_control oneday_msgs/srv/Recoding "{name: 'recording_gray'}"
+-  /img_gray 토픽에서 발행하는 프레임 녹화 시작
+  ros2 service call /recording_control oneday_msgs/srv/Recoding "{name: 'recording_edge'}"
+-  /img_edge 토픽에서 발행하는 프레임 녹화 시작
+  ros2 service call /recording_control oneday_msgs/srv/Recoding "{name: 'recording_stop'}"
+-  녹화 중지
 
   ## param
 -     filter.yaml , size.yaml 노드 실행시 초기 파람값 설정 파일
