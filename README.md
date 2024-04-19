@@ -3,32 +3,49 @@
 ![Screenshot from 2024-04-19 15-51-00](https://github.com/sna145815/best_camera_app/assets/98201651/f6fa245a-1ca2-4bdf-9e60-f6efb80149da)
 
   # 사용법
--     ros2 launch oneday camera.launch.py 노드들 활성화
+     ros2 launch oneday camera.launch.py 
+  -  노드들 활성화
   # Node
     ### img_publisher
-        웹캠에서 프레임을 읽어 /camera 토픽을 발행
+     웹캠에서 프레임을 읽어 /camera 토픽을 발행
+     
     ### edge
-       /camera 토픽을 Sub하여 cannyy_edge필터를 적용하여 /img_edge 토픽을 발행
+      /camera 토픽을 Sub하여 cannyy_edge필터를 적용하여 /img_edge 토픽을 발행
+      
     ### imgToGray
          /camera 토픽을 Sub하여 흑백필터를 적용하여 /img_gray 토픽을 발행
-    ## service Node
-      위 3개의 토픽을 구독하고 클라이언트의 call이 있을때마다 request.name의 내용에 따라 분기 처리 하여
-      요청에 맞게 각 토픽들이 발행하는 프레임을 스냅샷 혹은 녹화 
-    ## Client Call 
-   ros2 service call /take_stillshot oneday_msgs/srv/Snapshot "{name: 'basic'}" 
--  /camera 토픽에서 발행하는 프레임 캡쳐
-   ros2 service call /take_stillshot oneday_msgs/srv/Snapshot "{name: 'gray'}"
--  /img_gray 토픽에서 발행하는 프레임 캡쳐
-   ros2 service call /take_stillshot oneday_msgs/srv/Snapshot "{name: 'edge'}"
--  /img_edge 토픽에서 발행하는 프레임 캡쳐
-      ros2 service call /recording_control oneday_msgs/srv/Recoding "{name: 'recording_basic'}"
--  /camera 토픽에서 발행하는 프레임 녹화 시작
-  ros2 service call /recording_control oneday_msgs/srv/Recoding "{name: 'recording_gray'}"
--  /img_gray 토픽에서 발행하는 프레임 녹화 시작
-  ros2 service call /recording_control oneday_msgs/srv/Recoding "{name: 'recording_edge'}"
--  /img_edge 토픽에서 발행하는 프레임 녹화 시작
-  ros2 service call /recording_control oneday_msgs/srv/Recoding "{name: 'recording_stop'}"
--  녹화 중지
+         
+    ### imageServiceServer 
+      위 3개의 토픽을 구독하고 클라이언트의 call이 있을때마다 request.name의 내용에 따라 분기 처리 하여 요청에 맞게 각 토픽들이 발행하는 프레임을 스냅샷 혹은 녹화 
+      
+  # Client Call
+    ### basic 스냅샷
+       ros2 service call /take_stillshot oneday_msgs/srv/Snapshot "{name: 'basic'}" 
+  -  /camera 토픽에서 발행하는 프레임 캡쳐
+    
+   ### gray 스냅샷
+       ros2 service call /take_stillshot oneday_msgs/srv/Snapshot "{name: 'gray'}"
+  -  /img_gray 토픽에서 발행하는 프레임 캡쳐
+    
+   ### edge 스냅샷
+       ros2 service call /take_stillshot oneday_msgs/srv/Snapshot "{name: 'edge'}"
+  -  /img_edge 토픽에서 발행하는 프레임 캡쳐
+    
+   ### basic 녹화   
+       ros2 service call /recording_control oneday_msgs/srv/Recoding "{name: 'recording_basic'}"
+  -  /camera 토픽에서 발행하는 프레임 녹화 시작
+ 
+  ### gray 녹화 
+       ros2 service call /recording_control oneday_msgs/srv/Recoding "{name: 'recording_gray'}"
+  -  /img_gray 토픽에서 발행하는 프레임 녹화 시작
+ 
+  ### edge 녹화      
+       ros2 service call /recording_control oneday_msgs/srv/Recoding "{name: 'recording_edge'}"
+  -  /img_edge 토픽에서 발행하는 프레임 녹화 시작
+
+  ### 녹화 중지
+       ros2 service call /recording_control oneday_msgs/srv/Recoding "{name: 'recording_stop'}"
+  -  녹화 중지
 
   ## param
 -     filter.yaml , size.yaml 노드 실행시 초기 파람값 설정 파일
