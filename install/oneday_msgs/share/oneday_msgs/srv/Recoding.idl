@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from oneday_msgs/srv/Recoding.srv
+// generated code does not contain a copyright notice
+
+
+module oneday_msgs {
+  module srv {
+    struct Recoding_Request {
+      string name;
+    };
+    struct Recoding_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

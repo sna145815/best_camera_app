@@ -1,0 +1,315 @@
+[0.000000] (-) TimerEvent: {}
+[0.000091] (oneday) JobQueued: {'identifier': 'oneday', 'dependencies': OrderedDict()}
+[0.000109] (oneday_msgs) JobQueued: {'identifier': 'oneday_msgs', 'dependencies': OrderedDict()}
+[0.000121] (oneday) JobStarted: {'identifier': 'oneday'}
+[0.004242] (oneday_msgs) JobStarted: {'identifier': 'oneday_msgs'}
+[0.099571] (-) TimerEvent: {}
+[0.174046] (oneday_msgs) JobProgress: {'identifier': 'oneday_msgs', 'progress': 'cmake'}
+[0.174278] (oneday_msgs) JobProgress: {'identifier': 'oneday_msgs', 'progress': 'build'}
+[0.174723] (oneday_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jin/oneday/build/oneday_msgs', '--', '-j8', '-l8'], 'cwd': '/home/jin/oneday/build/oneday_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jin'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jin/oneday/install/oneday_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jin'), ('OLDPWD', '/home/jin/oneday/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1404'), ('SYSTEMD_EXEC_PID', '1605'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '40858'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jin/oneday/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jin'), ('JOURNAL_STREAM', '8:31437'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jin-ASUS-TUF-Dash-F15-FX516PM-FX516PM:@/tmp/.ICE-unix/1583,unix/jin-ASUS-TUF-Dash-F15-FX516PM-FX516PM:/tmp/.ICE-unix/1583'), ('INVOCATION_ID', '5a91cb9e51254da59a1b7032484e3d81'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MMX9L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/home/jin/oneday/install/oneday_msgs:/home/jin/oneday/install/oneday:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5d4f1370-51c3-4274-91fd-eefedc6cb0fe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jin/oneday/build/oneday_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages:/home/jin/oneday/install/oneday/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jin/oneday/install/oneday_msgs:/home/jin/oneday/install/oneday:/opt/ros/humble')]), 'shell': False}
+[0.193618] (oneday_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199641] (-) TimerEvent: {}
+[0.290079] (oneday_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.292309] (oneday_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.295310] (oneday_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.299710] (-) TimerEvent: {}
+[0.324775] (oneday_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399822] (-) TimerEvent: {}
+[0.408292] (oneday) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/oneday', 'build', '--build-base', '/home/jin/oneday/build/oneday/build', 'install', '--record', '/home/jin/oneday/build/oneday/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jin/oneday/src/oneday', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jin', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jin/oneday/install/oneday_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jin', 'OLDPWD': '/home/jin/oneday/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1404', 'SYSTEMD_EXEC_PID': '1605', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '40858', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jin/oneday/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jin', 'JOURNAL_STREAM': '8:31437', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jin-ASUS-TUF-Dash-F15-FX516PM-FX516PM:@/tmp/.ICE-unix/1583,unix/jin-ASUS-TUF-Dash-F15-FX516PM-FX516PM:/tmp/.ICE-unix/1583', 'INVOCATION_ID': '5a91cb9e51254da59a1b7032484e3d81', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MMX9L2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '23', 'AMENT_PREFIX_PATH': '/home/jin/oneday/install/oneday_msgs:/home/jin/oneday/install/oneday:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:5d4f1370-51c3-4274-91fd-eefedc6cb0fe', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jin/oneday/build/oneday', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jin/oneday/build/oneday/prefix_override:/home/jin/oneday/install/oneday/lib/python3.10/site-packages:/home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages:/home/jin/oneday/install/oneday/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jin/oneday/install/oneday_msgs'}, 'shell': False}
+[0.499912] (-) TimerEvent: {}
+[0.515297] (oneday_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.566025] (oneday) StdoutLine: {'line': b'running egg_info\n'}
+[0.566351] (oneday) StdoutLine: {'line': b'writing ../../build/oneday/oneday.egg-info/PKG-INFO\n'}
+[0.566486] (oneday) StdoutLine: {'line': b'writing dependency_links to ../../build/oneday/oneday.egg-info/dependency_links.txt\n'}
+[0.566612] (oneday) StdoutLine: {'line': b'writing entry points to ../../build/oneday/oneday.egg-info/entry_points.txt\n'}
+[0.566703] (oneday) StdoutLine: {'line': b'writing requirements to ../../build/oneday/oneday.egg-info/requires.txt\n'}
+[0.566764] (oneday) StdoutLine: {'line': b'writing top-level names to ../../build/oneday/oneday.egg-info/top_level.txt\n'}
+[0.567726] (oneday) StdoutLine: {'line': b"reading manifest file '../../build/oneday/oneday.egg-info/SOURCES.txt'\n"}
+[0.568286] (oneday) StdoutLine: {'line': b"writing manifest file '../../build/oneday/oneday.egg-info/SOURCES.txt'\n"}
+[0.568450] (oneday) StdoutLine: {'line': b'running build\n'}
+[0.568562] (oneday) StdoutLine: {'line': b'running build_py\n'}
+[0.568646] (oneday) StdoutLine: {'line': b'running install\n'}
+[0.568828] (oneday) StdoutLine: {'line': b'running install_lib\n'}
+[0.569722] (oneday) StdoutLine: {'line': b'running install_data\n'}
+[0.569828] (oneday) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.570895] (oneday) StdoutLine: {'line': b"removing '/home/jin/oneday/install/oneday/lib/python3.10/site-packages/oneday-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.571017] (oneday) StdoutLine: {'line': b'Copying ../../build/oneday/oneday.egg-info to /home/jin/oneday/install/oneday/lib/python3.10/site-packages/oneday-0.0.0-py3.10.egg-info\n'}
+[0.571491] (oneday) StdoutLine: {'line': b'running install_scripts\n'}
+[0.584943] (oneday) StdoutLine: {'line': b'Installing edge script to /home/jin/oneday/install/oneday/lib/oneday\n'}
+[0.585172] (oneday) StdoutLine: {'line': b'Installing imageServiceClient script to /home/jin/oneday/install/oneday/lib/oneday\n'}
+[0.585291] (oneday) StdoutLine: {'line': b'Installing imageServiceServer script to /home/jin/oneday/install/oneday/lib/oneday\n'}
+[0.585391] (oneday) StdoutLine: {'line': b'Installing imgToGray script to /home/jin/oneday/install/oneday/lib/oneday\n'}
+[0.585452] (oneday) StdoutLine: {'line': b'Installing img_publisher script to /home/jin/oneday/install/oneday/lib/oneday\n'}
+[0.585506] (oneday) StdoutLine: {'line': b"writing list of installed files to '/home/jin/oneday/build/oneday/install.log'\n"}
+[0.600026] (-) TimerEvent: {}
+[0.602480] (oneday) CommandEnded: {'returncode': 0}
+[0.608613] (oneday) JobEnded: {'identifier': 'oneday', 'rc': 0}
+[0.637735] (oneday_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700137] (-) TimerEvent: {}
+[0.783332] (oneday_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.798782] (oneday_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.800208] (-) TimerEvent: {}
+[0.813663] (oneday_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.813757] (oneday_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.813796] (oneday_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.820965] (oneday_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.838285] (oneday_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.839080] (oneday_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.841396] (oneday_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.862607] (oneday_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[0.864065] (oneday_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/jin/oneday/build/oneday_msgs\n'}
+[0.878755] (oneday_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.885136] (oneday_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.890642] (oneday_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_oneday_msgs\n'}
+[0.900313] (-) TimerEvent: {}
+[1.000537] (-) TimerEvent: {}
+[1.056812] (oneday_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.057439] (oneday_msgs) StdoutLine: {'line': b'writing oneday_msgs.egg-info/PKG-INFO\n'}
+[1.057613] (oneday_msgs) StdoutLine: {'line': b'writing dependency_links to oneday_msgs.egg-info/dependency_links.txt\n'}
+[1.057724] (oneday_msgs) StdoutLine: {'line': b'writing top-level names to oneday_msgs.egg-info/top_level.txt\n'}
+[1.059747] (oneday_msgs) StdoutLine: {'line': b"reading manifest file 'oneday_msgs.egg-info/SOURCES.txt'\n"}
+[1.060224] (oneday_msgs) StdoutLine: {'line': b"writing manifest file 'oneday_msgs.egg-info/SOURCES.txt'\n"}
+[1.077477] (oneday_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_oneday_msgs_egg\n'}
+[1.100651] (-) TimerEvent: {}
+[1.106982] (oneday_msgs) StdoutLine: {'line': b'[  5%] Built target oneday_msgs__cpp\n'}
+[1.114261] (oneday_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.114482] (oneday_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.115469] (oneday_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.120722] (oneday_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target oneday_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.131089] (oneday_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/oneday_msgs__rosidl_generator_c.dir/rosidl_generator_c/oneday_msgs/srv/detail/snapshot__functions.c.o\x1b[0m\n'}
+[1.131353] (oneday_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/oneday_msgs__rosidl_generator_c.dir/rosidl_generator_c/oneday_msgs/srv/detail/recoding__functions.c.o\x1b[0m\n'}
+[1.189864] (oneday_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library liboneday_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.200738] (-) TimerEvent: {}
+[1.216252] (oneday_msgs) StdoutLine: {'line': b'[ 20%] Built target oneday_msgs__rosidl_generator_c\n'}
+[1.223686] (oneday_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.226153] (oneday_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.227702] (oneday_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.300831] (-) TimerEvent: {}
+[1.385912] (oneday_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target oneday_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.387317] (oneday_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target oneday_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.396421] (oneday_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target oneday_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.397248] (oneday_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/oneday_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/oneday_msgs/srv/detail/recoding__type_support.cpp.o\x1b[0m\n'}
+[1.397368] (oneday_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/oneday_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/oneday_msgs/srv/detail/snapshot__type_support.cpp.o\x1b[0m\n'}
+[1.398297] (oneday_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/oneday_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/oneday_msgs/srv/snapshot__type_support.cpp.o\x1b[0m\n'}
+[1.399094] (oneday_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/oneday_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/oneday_msgs/srv/recoding__type_support.cpp.o\x1b[0m\n'}
+[1.400900] (-) TimerEvent: {}
+[1.413453] (oneday_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/oneday_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/oneday_msgs/srv/detail/dds_fastrtps/snapshot__type_support.cpp.o\x1b[0m\n'}
+[1.458979] (oneday_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target oneday_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[1.469741] (oneday_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/oneday_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/oneday_msgs/srv/snapshot__type_support.cpp.o\x1b[0m\n'}
+[1.501005] (-) TimerEvent: {}
+[1.511654] (oneday_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/oneday_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/oneday_msgs/srv/recoding__type_support.cpp.o\x1b[0m\n'}
+[1.555388] (oneday_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library liboneday_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.601137] (-) TimerEvent: {}
+[1.620695] (oneday_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target oneday_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.634914] (oneday_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target oneday_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.638749] (oneday_msgs) StdoutLine: {'line': b'[ 48%] Built target oneday_msgs__rosidl_typesupport_c\n'}
+[1.642773] (oneday_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/oneday_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/oneday_msgs/srv/detail/snapshot__type_support.c.o\x1b[0m\n'}
+[1.648095] (oneday_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/oneday_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/oneday_msgs/srv/detail/recoding__type_support.c.o\x1b[0m\n'}
+[1.668141] (oneday_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/oneday_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/oneday_msgs/srv/detail/snapshot__type_support_c.cpp.o\x1b[0m\n'}
+[1.685587] (oneday_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/oneday_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/oneday_msgs/srv/detail/recoding__type_support_c.cpp.o\x1b[0m\n'}
+[1.688607] (oneday_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library liboneday_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.693171] (oneday_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/oneday_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/oneday_msgs/srv/detail/dds_fastrtps/recoding__type_support.cpp.o\x1b[0m\n'}
+[1.701242] (-) TimerEvent: {}
+[1.719329] (oneday_msgs) StdoutLine: {'line': b'[ 64%] Built target oneday_msgs__rosidl_typesupport_introspection_c\n'}
+[1.736531] (oneday_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library liboneday_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.800155] (oneday_msgs) StdoutLine: {'line': b'[ 66%] Built target oneday_msgs__rosidl_typesupport_cpp\n'}
+[1.801322] (-) TimerEvent: {}
+[1.843580] (oneday_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library liboneday_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.901622] (-) TimerEvent: {}
+[1.908308] (oneday_msgs) StdoutLine: {'line': b'[ 69%] Built target oneday_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.983686] (oneday_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library liboneday_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.001711] (-) TimerEvent: {}
+[2.015931] (oneday_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library liboneday_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.031419] (oneday_msgs) StdoutLine: {'line': b'[ 74%] Built target oneday_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.063504] (oneday_msgs) StdoutLine: {'line': b'[ 74%] Built target oneday_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.077658] (oneday_msgs) StdoutLine: {'line': b'[ 74%] Built target oneday_msgs\n'}
+[2.093267] (oneday_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.101889] (-) TimerEvent: {}
+[2.202109] (-) TimerEvent: {}
+[2.302390] (-) TimerEvent: {}
+[2.402665] (oneday_msgs) StdoutLine: {'line': b'[ 76%] Built target oneday_msgs__py\n'}
+[2.402791] (-) TimerEvent: {}
+[2.409214] (oneday_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target oneday_msgs__rosidl_generator_py\x1b[0m\n'}
+[2.417103] (oneday_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/oneday_msgs__rosidl_generator_py.dir/rosidl_generator_py/oneday_msgs/srv/_recoding_s.c.o\x1b[0m\n'}
+[2.417247] (oneday_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/oneday_msgs__rosidl_generator_py.dir/rosidl_generator_py/oneday_msgs/srv/_snapshot_s.c.o\x1b[0m\n'}
+[2.502923] (-) TimerEvent: {}
+[2.504676] (oneday_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/oneday_msgs/liboneday_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[2.530389] (oneday_msgs) StdoutLine: {'line': b'[ 84%] Built target oneday_msgs__rosidl_generator_py\n'}
+[2.537229] (oneday_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target oneday_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.537359] (oneday_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target oneday_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.537412] (oneday_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target oneday_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.546243] (oneday_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/oneday_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/oneday_msgs/_oneday_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.546383] (oneday_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/oneday_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/oneday_msgs/_oneday_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.546426] (oneday_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/oneday_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/oneday_msgs/_oneday_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.603036] (-) TimerEvent: {}
+[2.610186] (oneday_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/oneday_msgs/oneday_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.610380] (oneday_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/oneday_msgs/oneday_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.610442] (oneday_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/oneday_msgs/oneday_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.631236] (oneday_msgs) StdoutLine: {'line': b'[100%] Built target oneday_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.631423] (oneday_msgs) StdoutLine: {'line': b'[100%] Built target oneday_msgs__rosidl_typesupport_c__pyext\n'}
+[2.631495] (oneday_msgs) StdoutLine: {'line': b'[100%] Built target oneday_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.638360] (oneday_msgs) CommandEnded: {'returncode': 0}
+[2.684745] (oneday_msgs) JobProgress: {'identifier': 'oneday_msgs', 'progress': 'install'}
+[2.690460] (oneday_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jin/oneday/build/oneday_msgs'], 'cwd': '/home/jin/oneday/build/oneday_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jin'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jin/oneday/install/oneday_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jin'), ('OLDPWD', '/home/jin/oneday/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1404'), ('SYSTEMD_EXEC_PID', '1605'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '40858'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jin/oneday/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jin'), ('JOURNAL_STREAM', '8:31437'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jin-ASUS-TUF-Dash-F15-FX516PM-FX516PM:@/tmp/.ICE-unix/1583,unix/jin-ASUS-TUF-Dash-F15-FX516PM-FX516PM:/tmp/.ICE-unix/1583'), ('INVOCATION_ID', '5a91cb9e51254da59a1b7032484e3d81'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MMX9L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '23'), ('AMENT_PREFIX_PATH', '/home/jin/oneday/install/oneday_msgs:/home/jin/oneday/install/oneday:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5d4f1370-51c3-4274-91fd-eefedc6cb0fe'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jin/oneday/build/oneday_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages:/home/jin/oneday/install/oneday/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jin/oneday/install/oneday_msgs:/home/jin/oneday/install/oneday:/opt/ros/humble')]), 'shell': False}
+[2.695785] (oneday_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.695891] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/share/ament_index/resource_index/rosidl_interfaces/oneday_msgs\n'}
+[2.696039] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs\n'}
+[2.696115] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/msg\n'}
+[2.696161] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.696204] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv\n'}
+[2.696243] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail\n'}
+[2.696281] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__functions.h\n'}
+[2.696405] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__functions.c\n'}
+[2.696486] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__type_support.h\n'}
+[2.696556] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__functions.c\n'}
+[2.696603] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__type_support.h\n'}
+[2.696663] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__struct.h\n'}
+[2.696699] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__struct.h\n'}
+[2.696752] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__functions.h\n'}
+[2.696891] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/recoding.h\n'}
+[2.696941] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/snapshot.h\n'}
+[2.697031] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/environment/library_path.sh\n'}
+[2.697080] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/environment/library_path.dsv\n'}
+[2.697314] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_generator_c.so\n'}
+[2.697468] (oneday_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_generator_c.so" to ""\n'}
+[2.697528] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs\n'}
+[2.697564] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/msg\n'}
+[2.697621] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.697657] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv\n'}
+[2.697693] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail\n'}
+[2.697752] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__rosidl_typesupport_fastrtps_c.h\n'}
+[2.697787] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__rosidl_typesupport_fastrtps_c.h\n'}
+[2.697838] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.697997] (oneday_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.698056] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs\n'}
+[2.698093] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/msg\n'}
+[2.698143] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.698209] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv\n'}
+[2.698249] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail\n'}
+[2.698284] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__rosidl_typesupport_introspection_c.h\n'}
+[2.698319] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__type_support.c\n'}
+[2.698378] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__type_support.c\n'}
+[2.698413] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__rosidl_typesupport_introspection_c.h\n'}
+[2.698489] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.698634] (oneday_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.698704] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_c.so\n'}
+[2.698848] (oneday_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_c.so" to ""\n'}
+[2.698894] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs\n'}
+[2.698942] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv\n'}
+[2.698996] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/snapshot.hpp\n'}
+[2.699055] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail\n'}
+[2.699089] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__traits.hpp\n'}
+[2.699136] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__traits.hpp\n'}
+[2.699189] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__struct.hpp\n'}
+[2.699239] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__builder.hpp\n'}
+[2.699293] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__builder.hpp\n'}
+[2.699353] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__struct.hpp\n'}
+[2.699415] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/recoding.hpp\n'}
+[2.699493] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs\n'}
+[2.699547] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/msg\n'}
+[2.699616] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.699651] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv\n'}
+[2.699686] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail\n'}
+[2.699722] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.699775] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/dds_fastrtps\n'}
+[2.699826] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.699878] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.700022] (oneday_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.700074] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs\n'}
+[2.700125] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv\n'}
+[2.700183] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail\n'}
+[2.700221] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__type_support.cpp\n'}
+[2.700274] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.700327] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.700378] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__type_support.cpp\n'}
+[2.700484] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.700647] (oneday_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.700720] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_cpp.so\n'}
+[2.700871] (oneday_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[2.700926] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/environment/pythonpath.sh\n'}
+[2.700979] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/environment/pythonpath.dsv\n'}
+[2.701034] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs-0.0.0-py3.10.egg-info\n'}
+[2.701088] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.701140] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.701192] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.701250] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.701335] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs\n'}
+[2.701387] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/__init__.py\n'}
+[2.701438] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv\n'}
+[2.701489] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv/__init__.py\n'}
+[2.701540] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv/_snapshot.py\n'}
+[2.701595] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv/_snapshot_s.c\n'}
+[2.701658] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv/_recoding.py\n'}
+[2.701715] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv/_recoding_s.c\n'}
+[2.701773] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/liboneday_msgs__rosidl_generator_py.so\n'}
+[2.701863] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/_oneday_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.701924] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/_oneday_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.701996] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/oneday_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.702073] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/oneday_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.702150] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/oneday_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.702227] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/_oneday_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.703098] (-) TimerEvent: {}
+[2.724207] (oneday_msgs) StdoutLine: {'line': b"Listing '/home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs'...\n"}
+[2.724326] (oneday_msgs) StdoutLine: {'line': b"Compiling '/home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/__init__.py'...\n"}
+[2.724372] (oneday_msgs) StdoutLine: {'line': b"Listing '/home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv'...\n"}
+[2.724411] (oneday_msgs) StdoutLine: {'line': b"Compiling '/home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv/__init__.py'...\n"}
+[2.724449] (oneday_msgs) StdoutLine: {'line': b"Compiling '/home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv/_recoding.py'...\n"}
+[2.724485] (oneday_msgs) StdoutLine: {'line': b"Compiling '/home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv/_snapshot.py'...\n"}
+[2.726926] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/oneday_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.727056] (oneday_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/oneday_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.727126] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/oneday_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.727274] (oneday_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/oneday_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.727362] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/oneday_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.727595] (oneday_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/oneday_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.727673] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_generator_py.so\n'}
+[2.727815] (oneday_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_generator_py.so" to ""\n'}
+[2.727851] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/srv/Snapshot.idl\n'}
+[2.727985] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/srv/Recoding.idl\n'}
+[2.728066] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/srv/Snapshot.srv\n'}
+[2.728103] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/srv/Snapshot_Request.msg\n'}
+[2.728151] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/srv/Snapshot_Response.msg\n'}
+[2.728186] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/srv/Recoding.srv\n'}
+[2.728241] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/srv/Recoding_Request.msg\n'}
+[2.728294] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/srv/Recoding_Response.msg\n'}
+[2.728343] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/ament_index/resource_index/package_run_dependencies/oneday_msgs\n'}
+[2.728402] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/ament_index/resource_index/parent_prefix_path/oneday_msgs\n'}
+[2.728438] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/environment/ament_prefix_path.sh\n'}
+[2.728495] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/environment/ament_prefix_path.dsv\n'}
+[2.728566] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/environment/path.sh\n'}
+[2.728603] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/environment/path.dsv\n'}
+[2.728655] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/local_setup.bash\n'}
+[2.728702] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/local_setup.sh\n'}
+[2.728763] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/local_setup.zsh\n'}
+[2.728797] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/local_setup.dsv\n'}
+[2.728844] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/package.dsv\n'}
+[2.728904] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/ament_index/resource_index/packages/oneday_msgs\n'}
+[2.728958] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_generator_cExport.cmake\n'}
+[2.729018] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.729089] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.729146] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.729199] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.729264] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.729300] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.729355] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.729392] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.729447] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.729517] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.729563] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.729620] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.729689] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.729725] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.729759] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.729794] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.729867] (oneday_msgs) StdoutLine: {'line': b'-- Installing: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.729921] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.729967] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.730013] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.730057] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.730102] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.730183] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.730220] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgsConfig.cmake\n'}
+[2.730255] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgsConfig-version.cmake\n'}
+[2.730290] (oneday_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/package.xml\n'}
+[2.731439] (oneday_msgs) CommandEnded: {'returncode': 0}
+[2.787428] (oneday_msgs) JobEnded: {'identifier': 'oneday_msgs', 'rc': 0}
+[2.787975] (-) EventReactorShutdown: {}

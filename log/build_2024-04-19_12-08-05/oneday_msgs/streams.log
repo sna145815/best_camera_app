@@ -1,0 +1,169 @@
+[0.173s] Invoking command in '/home/jin/oneday/build/oneday_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jin/oneday/install/oneday:/opt/ros/humble /usr/bin/cmake --build /home/jin/oneday/build/oneday_msgs -- -j8 -l8
+[0.203s] [ 10%] Built target oneday_msgs__rosidl_generator_c
+[0.203s] [ 12%] Built target oneday_msgs__cpp
+[0.211s] [ 12%] Built target ament_cmake_python_copy_oneday_msgs
+[0.219s] [ 23%] Built target oneday_msgs__rosidl_typesupport_c
+[0.221s] [ 33%] Built target oneday_msgs__rosidl_typesupport_introspection_c
+[0.221s] [ 46%] Built target oneday_msgs__rosidl_typesupport_fastrtps_cpp
+[0.221s] [ 53%] Built target oneday_msgs__rosidl_typesupport_cpp
+[0.222s] [ 64%] Built target oneday_msgs__rosidl_typesupport_fastrtps_c
+[0.228s] [ 74%] Built target oneday_msgs__rosidl_typesupport_introspection_cpp
+[0.244s] [ 74%] Built target oneday_msgs
+[0.257s] [ 76%] Built target oneday_msgs__py
+[0.271s] [ 84%] Built target oneday_msgs__rosidl_generator_py
+[0.285s] [ 89%] Built target oneday_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.289s] [ 94%] Built target oneday_msgs__rosidl_typesupport_c__pyext
+[0.290s] [100%] Built target oneday_msgs__rosidl_typesupport_introspection_c__pyext
+[0.379s] running egg_info
+[0.379s] writing oneday_msgs.egg-info/PKG-INFO
+[0.379s] writing dependency_links to oneday_msgs.egg-info/dependency_links.txt
+[0.379s] writing top-level names to oneday_msgs.egg-info/top_level.txt
+[0.381s] reading manifest file 'oneday_msgs.egg-info/SOURCES.txt'
+[0.382s] writing manifest file 'oneday_msgs.egg-info/SOURCES.txt'
+[0.400s] [100%] Built target ament_cmake_python_build_oneday_msgs_egg
+[0.408s] Invoked command in '/home/jin/oneday/build/oneday_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jin/oneday/install/oneday:/opt/ros/humble /usr/bin/cmake --build /home/jin/oneday/build/oneday_msgs -- -j8 -l8
+[0.461s] Invoking command in '/home/jin/oneday/build/oneday_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jin/oneday/install/oneday:/opt/ros/humble /usr/bin/cmake --install /home/jin/oneday/build/oneday_msgs
+[0.466s] -- Install configuration: ""
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/ament_index/resource_index/rosidl_interfaces/oneday_msgs
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/msg
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__functions.h
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__functions.c
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__type_support.h
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__functions.c
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__type_support.h
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__struct.h
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__struct.h
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__functions.h
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/recoding.h
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/snapshot.h
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/environment/library_path.sh
+[0.466s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/environment/library_path.dsv
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_generator_c.so
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/msg
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__rosidl_typesupport_fastrtps_c.h
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__rosidl_typesupport_fastrtps_c.h
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_fastrtps_c.so
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/msg
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__rosidl_typesupport_introspection_c.h
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__type_support.c
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__type_support.c
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__rosidl_typesupport_introspection_c.h
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_introspection_c.so
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_c.so
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs
+[0.467s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/snapshot.hpp
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__traits.hpp
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__traits.hpp
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__struct.hpp
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__builder.hpp
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__builder.hpp
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__struct.hpp
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/recoding.hpp
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/msg
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__rosidl_typesupport_fastrtps_cpp.hpp
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/dds_fastrtps
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__rosidl_typesupport_fastrtps_cpp.hpp
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail
+[0.468s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__type_support.cpp
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__rosidl_typesupport_introspection_cpp.hpp
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/recoding__rosidl_typesupport_introspection_cpp.hpp
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/include/oneday_msgs/oneday_msgs/srv/detail/snapshot__type_support.cpp
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_introspection_cpp.so
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_typesupport_cpp.so
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/environment/pythonpath.sh
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/environment/pythonpath.dsv
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs-0.0.0-py3.10.egg-info
+[0.469s] -- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[0.469s] -- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.469s] -- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.469s] -- Installing: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/__init__.py
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv/__init__.py
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv/_snapshot.py
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv/_snapshot_s.c
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv/_recoding.py
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv/_recoding_s.c
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/liboneday_msgs__rosidl_generator_py.so
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/_oneday_msgs_s.ep.rosidl_typesupport_c.c
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/_oneday_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/oneday_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/oneday_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/oneday_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.469s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/_oneday_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.487s] Listing '/home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs'...
+[0.487s] Listing '/home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/srv'...
+[0.490s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/oneday_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.490s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/oneday_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.490s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/local/lib/python3.10/dist-packages/oneday_msgs/oneday_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.490s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/lib/liboneday_msgs__rosidl_generator_py.so
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/srv/Snapshot.idl
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/srv/Recoding.idl
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/srv/Snapshot.srv
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/srv/Snapshot_Request.msg
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/srv/Snapshot_Response.msg
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/srv/Recoding.srv
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/srv/Recoding_Request.msg
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/srv/Recoding_Response.msg
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/ament_index/resource_index/package_run_dependencies/oneday_msgs
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/ament_index/resource_index/parent_prefix_path/oneday_msgs
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/environment/ament_prefix_path.sh
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/environment/ament_prefix_path.dsv
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/environment/path.sh
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/environment/path.dsv
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/local_setup.bash
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/local_setup.sh
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/local_setup.zsh
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/local_setup.dsv
+[0.491s] -- Installing: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/package.dsv
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/ament_index/resource_index/packages/oneday_msgs
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_generator_cExport.cmake
+[0.491s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgs__rosidl_typesupport_cExport.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_generator_cppExport.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgs__rosidl_typesupport_cppExport.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_generator_pyExport.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/export_oneday_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/rosidl_cmake-extras.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgsConfig.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/cmake/oneday_msgsConfig-version.cmake
+[0.492s] -- Up-to-date: /home/jin/oneday/install/oneday_msgs/share/oneday_msgs/package.xml
+[0.493s] Invoked command in '/home/jin/oneday/build/oneday_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jin/oneday/install/oneday:/opt/ros/humble /usr/bin/cmake --install /home/jin/oneday/build/oneday_msgs

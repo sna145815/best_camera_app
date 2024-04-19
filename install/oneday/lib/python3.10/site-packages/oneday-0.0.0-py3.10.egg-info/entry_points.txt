@@ -1,0 +1,7 @@
+[console_scripts]
+edge = oneday.edge:main
+imageServiceClient = oneday.imageServiceClient:main
+imageServiceServer = oneday.imageServiceServer:main
+imgToGray = oneday.imgToGray:main
+img_publisher = oneday.img_publisher:main
+

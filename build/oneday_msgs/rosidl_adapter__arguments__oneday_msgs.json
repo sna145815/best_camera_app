@@ -1,0 +1,7 @@
+{
+  "package_name": "oneday_msgs",
+  "non_idl_tuples": [
+    "/home/jin/oneday/src/oneday_msgs:srv/Snapshot.srv",
+    "/home/jin/oneday/src/oneday_msgs:srv/Recoding.srv"
+  ]
+}

@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000199] (oneday) JobQueued: {'identifier': 'oneday', 'dependencies': OrderedDict()}
+[0.000348] (oneday) JobStarted: {'identifier': 'oneday'}
+[0.099905] (-) TimerEvent: {}
+[0.200180] (-) TimerEvent: {}
+[0.300372] (-) TimerEvent: {}
+[0.391926] (oneday) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/oneday', 'build', '--build-base', '/home/jin/oneday/src/build/oneday/build', 'install', '--record', '/home/jin/oneday/src/build/oneday/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jin/oneday/src/oneday', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jin', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jin', 'OLDPWD': '/home/jin/oneday', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1404', 'SYSTEMD_EXEC_PID': '1605', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '40858', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jin', 'JOURNAL_STREAM': '8:31437', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jin-ASUS-TUF-Dash-F15-FX516PM-FX516PM:@/tmp/.ICE-unix/1583,unix/jin-ASUS-TUF-Dash-F15-FX516PM-FX516PM:/tmp/.ICE-unix/1583', 'INVOCATION_ID': '5a91cb9e51254da59a1b7032484e3d81', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MMX9L2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '23', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:5d4f1370-51c3-4274-91fd-eefedc6cb0fe', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jin/oneday/src/build/oneday', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jin/oneday/src/build/oneday/prefix_override:/home/jin/oneday/src/install/oneday/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.400450] (-) TimerEvent: {}
+[0.500747] (-) TimerEvent: {}
+[0.551428] (oneday) StdoutLine: {'line': b'running egg_info\n'}
+[0.551726] (oneday) StdoutLine: {'line': b'creating ../build/oneday/oneday.egg-info\n'}
+[0.551816] (oneday) StdoutLine: {'line': b'writing ../build/oneday/oneday.egg-info/PKG-INFO\n'}
+[0.551919] (oneday) StdoutLine: {'line': b'writing dependency_links to ../build/oneday/oneday.egg-info/dependency_links.txt\n'}
+[0.551962] (oneday) StdoutLine: {'line': b'writing entry points to ../build/oneday/oneday.egg-info/entry_points.txt\n'}
+[0.552039] (oneday) StdoutLine: {'line': b'writing requirements to ../build/oneday/oneday.egg-info/requires.txt\n'}
+[0.552076] (oneday) StdoutLine: {'line': b'writing top-level names to ../build/oneday/oneday.egg-info/top_level.txt\n'}
+[0.552126] (oneday) StdoutLine: {'line': b"writing manifest file '../build/oneday/oneday.egg-info/SOURCES.txt'\n"}
+[0.553054] (oneday) StdoutLine: {'line': b"reading manifest file '../build/oneday/oneday.egg-info/SOURCES.txt'\n"}
+[0.553539] (oneday) StdoutLine: {'line': b"writing manifest file '../build/oneday/oneday.egg-info/SOURCES.txt'\n"}
+[0.553664] (oneday) StdoutLine: {'line': b'running build\n'}
+[0.553769] (oneday) StdoutLine: {'line': b'running build_py\n'}
+[0.553810] (oneday) StdoutLine: {'line': b'creating /home/jin/oneday/src/build/oneday/build\n'}
+[0.553849] (oneday) StdoutLine: {'line': b'creating /home/jin/oneday/src/build/oneday/build/lib\n'}
+[0.553884] (oneday) StdoutLine: {'line': b'creating /home/jin/oneday/src/build/oneday/build/lib/oneday\n'}
+[0.553946] (oneday) StdoutLine: {'line': b'copying oneday/__init__.py -> /home/jin/oneday/src/build/oneday/build/lib/oneday\n'}
+[0.553984] (oneday) StdoutLine: {'line': b'copying oneday/img_publisher.py -> /home/jin/oneday/src/build/oneday/build/lib/oneday\n'}
+[0.554033] (oneday) StdoutLine: {'line': b'running install\n'}
+[0.554111] (oneday) StdoutLine: {'line': b'running install_lib\n'}
+[0.554662] (oneday) StdoutLine: {'line': b'creating /home/jin/oneday/src/install/oneday/lib/python3.10/site-packages/oneday\n'}
+[0.554698] (oneday) StdoutLine: {'line': b'copying /home/jin/oneday/src/build/oneday/build/lib/oneday/__init__.py -> /home/jin/oneday/src/install/oneday/lib/python3.10/site-packages/oneday\n'}
+[0.554747] (oneday) StdoutLine: {'line': b'copying /home/jin/oneday/src/build/oneday/build/lib/oneday/img_publisher.py -> /home/jin/oneday/src/install/oneday/lib/python3.10/site-packages/oneday\n'}
+[0.554968] (oneday) StdoutLine: {'line': b'byte-compiling /home/jin/oneday/src/install/oneday/lib/python3.10/site-packages/oneday/__init__.py to __init__.cpython-310.pyc\n'}
+[0.555092] (oneday) StdoutLine: {'line': b'byte-compiling /home/jin/oneday/src/install/oneday/lib/python3.10/site-packages/oneday/img_publisher.py to img_publisher.cpython-310.pyc\n'}
+[0.555452] (oneday) StdoutLine: {'line': b'running install_data\n'}
+[0.555541] (oneday) StdoutLine: {'line': b'creating /home/jin/oneday/src/install/oneday/share/ament_index\n'}
+[0.555575] (oneday) StdoutLine: {'line': b'creating /home/jin/oneday/src/install/oneday/share/ament_index/resource_index\n'}
+[0.555614] (oneday) StdoutLine: {'line': b'creating /home/jin/oneday/src/install/oneday/share/ament_index/resource_index/packages\n'}
+[0.555649] (oneday) StdoutLine: {'line': b'copying resource/oneday -> /home/jin/oneday/src/install/oneday/share/ament_index/resource_index/packages\n'}
+[0.555710] (oneday) StdoutLine: {'line': b'copying package.xml -> /home/jin/oneday/src/install/oneday/share/oneday\n'}
+[0.555745] (oneday) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.556692] (oneday) StdoutLine: {'line': b'Copying ../build/oneday/oneday.egg-info to /home/jin/oneday/src/install/oneday/lib/python3.10/site-packages/oneday-0.0.0-py3.10.egg-info\n'}
+[0.557126] (oneday) StdoutLine: {'line': b'running install_scripts\n'}
+[0.570094] (oneday) StdoutLine: {'line': b'Installing img_publisher script to /home/jin/oneday/src/install/oneday/lib/oneday\n'}
+[0.570249] (oneday) StdoutLine: {'line': b"writing list of installed files to '/home/jin/oneday/src/build/oneday/install.log'\n"}
+[0.584943] (oneday) CommandEnded: {'returncode': 0}
+[0.590679] (oneday) JobEnded: {'identifier': 'oneday', 'rc': 0}
+[0.591232] (-) EventReactorShutdown: {}

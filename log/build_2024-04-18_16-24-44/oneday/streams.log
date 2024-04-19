@@ -1,0 +1,27 @@
+[0.420s] Invoking command in '/home/jin/oneday/src/oneday': PYTHONPATH=/home/jin/oneday/build/oneday/prefix_override:/home/jin/oneday/install/oneday/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/oneday build --build-base /home/jin/oneday/build/oneday/build install --record /home/jin/oneday/build/oneday/install.log --single-version-externally-managed install_data
+[0.575s] running egg_info
+[0.575s] writing ../../build/oneday/oneday.egg-info/PKG-INFO
+[0.575s] writing dependency_links to ../../build/oneday/oneday.egg-info/dependency_links.txt
+[0.575s] writing entry points to ../../build/oneday/oneday.egg-info/entry_points.txt
+[0.575s] writing requirements to ../../build/oneday/oneday.egg-info/requires.txt
+[0.575s] writing top-level names to ../../build/oneday/oneday.egg-info/top_level.txt
+[0.577s] reading manifest file '../../build/oneday/oneday.egg-info/SOURCES.txt'
+[0.577s] writing manifest file '../../build/oneday/oneday.egg-info/SOURCES.txt'
+[0.577s] running build
+[0.577s] running build_py
+[0.577s] copying oneday/imageServiceClient.py -> /home/jin/oneday/build/oneday/build/lib/oneday
+[0.577s] running install
+[0.577s] running install_lib
+[0.578s] copying /home/jin/oneday/build/oneday/build/lib/oneday/imageServiceClient.py -> /home/jin/oneday/install/oneday/lib/python3.10/site-packages/oneday
+[0.578s] byte-compiling /home/jin/oneday/install/oneday/lib/python3.10/site-packages/oneday/imageServiceClient.py to imageServiceClient.cpython-310.pyc
+[0.579s] running install_data
+[0.579s] running install_egg_info
+[0.580s] removing '/home/jin/oneday/install/oneday/lib/python3.10/site-packages/oneday-0.0.0-py3.10.egg-info' (and everything under it)
+[0.580s] Copying ../../build/oneday/oneday.egg-info to /home/jin/oneday/install/oneday/lib/python3.10/site-packages/oneday-0.0.0-py3.10.egg-info
+[0.580s] running install_scripts
+[0.593s] Installing edge script to /home/jin/oneday/install/oneday/lib/oneday
+[0.594s] Installing imageServiceServer script to /home/jin/oneday/install/oneday/lib/oneday
+[0.594s] Installing imgToGray script to /home/jin/oneday/install/oneday/lib/oneday
+[0.594s] Installing img_publisher script to /home/jin/oneday/install/oneday/lib/oneday
+[0.594s] writing list of installed files to '/home/jin/oneday/build/oneday/install.log'
+[0.609s] Invoked command in '/home/jin/oneday/src/oneday' returned '0': PYTHONPATH=/home/jin/oneday/build/oneday/prefix_override:/home/jin/oneday/install/oneday/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/oneday build --build-base /home/jin/oneday/build/oneday/build install --record /home/jin/oneday/build/oneday/install.log --single-version-externally-managed install_data

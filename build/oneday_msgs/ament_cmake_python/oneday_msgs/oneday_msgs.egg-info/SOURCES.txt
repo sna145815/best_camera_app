@@ -1,0 +1,9 @@
+setup.py
+oneday_msgs/__init__.py
+oneday_msgs.egg-info/PKG-INFO
+oneday_msgs.egg-info/SOURCES.txt
+oneday_msgs.egg-info/dependency_links.txt
+oneday_msgs.egg-info/top_level.txt
+oneday_msgs/srv/__init__.py
+oneday_msgs/srv/_recoding.py
+oneday_msgs/srv/_snapshot.py

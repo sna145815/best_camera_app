@@ -1,0 +1,37 @@
+[0.386s] Invoking command in '/home/jin/oneday/src/oneday': PYTHONPATH=/home/jin/oneday/build/oneday/prefix_override:/home/jin/oneday/install/oneday/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/oneday build --build-base /home/jin/oneday/build/oneday/build install --record /home/jin/oneday/build/oneday/install.log --single-version-externally-managed install_data
+[0.533s] running egg_info
+[0.533s] creating ../../build/oneday/oneday.egg-info
+[0.534s] writing ../../build/oneday/oneday.egg-info/PKG-INFO
+[0.534s] writing dependency_links to ../../build/oneday/oneday.egg-info/dependency_links.txt
+[0.534s] writing entry points to ../../build/oneday/oneday.egg-info/entry_points.txt
+[0.534s] writing requirements to ../../build/oneday/oneday.egg-info/requires.txt
+[0.534s] writing top-level names to ../../build/oneday/oneday.egg-info/top_level.txt
+[0.534s] writing manifest file '../../build/oneday/oneday.egg-info/SOURCES.txt'
+[0.535s] reading manifest file '../../build/oneday/oneday.egg-info/SOURCES.txt'
+[0.535s] writing manifest file '../../build/oneday/oneday.egg-info/SOURCES.txt'
+[0.535s] running build
+[0.535s] running build_py
+[0.535s] creating /home/jin/oneday/build/oneday/build
+[0.535s] creating /home/jin/oneday/build/oneday/build/lib
+[0.535s] creating /home/jin/oneday/build/oneday/build/lib/oneday
+[0.535s] copying oneday/__init__.py -> /home/jin/oneday/build/oneday/build/lib/oneday
+[0.536s] copying oneday/img_publisher.py -> /home/jin/oneday/build/oneday/build/lib/oneday
+[0.536s] running install
+[0.536s] running install_lib
+[0.536s] creating /home/jin/oneday/install/oneday/lib/python3.10/site-packages/oneday
+[0.536s] copying /home/jin/oneday/build/oneday/build/lib/oneday/__init__.py -> /home/jin/oneday/install/oneday/lib/python3.10/site-packages/oneday
+[0.536s] copying /home/jin/oneday/build/oneday/build/lib/oneday/img_publisher.py -> /home/jin/oneday/install/oneday/lib/python3.10/site-packages/oneday
+[0.537s] byte-compiling /home/jin/oneday/install/oneday/lib/python3.10/site-packages/oneday/__init__.py to __init__.cpython-310.pyc
+[0.537s] byte-compiling /home/jin/oneday/install/oneday/lib/python3.10/site-packages/oneday/img_publisher.py to img_publisher.cpython-310.pyc
+[0.537s] running install_data
+[0.537s] creating /home/jin/oneday/install/oneday/share/ament_index
+[0.537s] creating /home/jin/oneday/install/oneday/share/ament_index/resource_index
+[0.537s] creating /home/jin/oneday/install/oneday/share/ament_index/resource_index/packages
+[0.537s] copying resource/oneday -> /home/jin/oneday/install/oneday/share/ament_index/resource_index/packages
+[0.537s] copying package.xml -> /home/jin/oneday/install/oneday/share/oneday
+[0.537s] running install_egg_info
+[0.538s] Copying ../../build/oneday/oneday.egg-info to /home/jin/oneday/install/oneday/lib/python3.10/site-packages/oneday-0.0.0-py3.10.egg-info
+[0.539s] running install_scripts
+[0.551s] Installing img_publisher script to /home/jin/oneday/install/oneday/lib/oneday
+[0.551s] writing list of installed files to '/home/jin/oneday/build/oneday/install.log'
+[0.566s] Invoked command in '/home/jin/oneday/src/oneday' returned '0': PYTHONPATH=/home/jin/oneday/build/oneday/prefix_override:/home/jin/oneday/install/oneday/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/oneday build --build-base /home/jin/oneday/build/oneday/build install --record /home/jin/oneday/build/oneday/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+Invoking command in '/home/jin/oneday/build/oneday_msgs': CMAKE_PREFIX_PATH=/home/jin/oneday/install/oneday:/opt/ros/humble /usr/bin/cmake /home/jin/oneday/src/oneday_msgs -DCMAKE_INSTALL_PREFIX=/home/jin/oneday/install/oneday_msgs
+Invoked command in '/home/jin/oneday/build/oneday_msgs' returned '0': CMAKE_PREFIX_PATH=/home/jin/oneday/install/oneday:/opt/ros/humble /usr/bin/cmake /home/jin/oneday/src/oneday_msgs -DCMAKE_INSTALL_PREFIX=/home/jin/oneday/install/oneday_msgs
+Invoking command in '/home/jin/oneday/build/oneday_msgs': CMAKE_PREFIX_PATH=/home/jin/oneday/install/oneday:/opt/ros/humble /usr/bin/cmake --build /home/jin/oneday/build/oneday_msgs -- -j8 -l8
+Invoked command in '/home/jin/oneday/build/oneday_msgs' returned '0': CMAKE_PREFIX_PATH=/home/jin/oneday/install/oneday:/opt/ros/humble /usr/bin/cmake --build /home/jin/oneday/build/oneday_msgs -- -j8 -l8
+Invoking command in '/home/jin/oneday/build/oneday_msgs': CMAKE_PREFIX_PATH=/home/jin/oneday/install/oneday:/opt/ros/humble /usr/bin/cmake --install /home/jin/oneday/build/oneday_msgs
+Invoked command in '/home/jin/oneday/build/oneday_msgs' returned '0': CMAKE_PREFIX_PATH=/home/jin/oneday/install/oneday:/opt/ros/humble /usr/bin/cmake --install /home/jin/oneday/build/oneday_msgs

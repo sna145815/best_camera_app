@@ -1,0 +1,8 @@
+srv/Recoding.idl
+srv/Recoding.srv
+srv/Recoding_Request.msg
+srv/Recoding_Response.msg
+srv/Snapshot.idl
+srv/Snapshot.srv
+srv/Snapshot_Request.msg
+srv/Snapshot_Response.msg
